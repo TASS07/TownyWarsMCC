@@ -14,8 +14,10 @@ public class DailyInactivityTask {
 		getLogger().info("Twar Inactivity Penalty started");
 
 		collectData(getResidentsInWars())
+		processData()
 		
 		getLogger().info("Twar Inactivity Penalty ended");
+		
 		
 	}
 	
@@ -55,5 +57,9 @@ public class DailyInactivityTask {
 		
 		//disconnect from mysql
 		
+	}
+	
+	public void processData() {
+		//Calculations, dp deduction
 	}
 }
