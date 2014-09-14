@@ -1,6 +1,6 @@
 package net.minecraftcenter.townywars;
 
-public class DailyTimerTask extends TownyTimerTask {
+public class DailyInactivityTask {
 
 	public void run() {
 	}
